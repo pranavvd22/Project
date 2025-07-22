@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { io } from 'socket.io-client'; // 👈 Import socket client
+// import { io } from 'socket.io-client'; // 👈 Import socket client
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import "../styles/Orders.css";
-import jwt_decode from 'jwt-decode';
+// import jwt_decode from 'jwt-decode';
 
 
-const socket = io('https://mall-munch-backend.onrender.com'); // 👈 Your backend origin (no /mall)
+// const socket = io('https://mall-munch-backend.onrender.com'); // 👈 Your backend origin (no /mall)
 
 const Orders = () => {
   const [orders, setOrders] = useState([]);

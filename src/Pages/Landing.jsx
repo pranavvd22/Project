@@ -122,8 +122,9 @@ const Landing = () => {
           <div className="footer-logo">MALL MUNCH</div>
           <div className="footer-info">
             <p>A modern food ordering platform for shopping malls</p>
-            <p>Developed by Pranav & Koustubh</p>
-            <p>Software Developers</p>
+            <p>Developed by </p>
+            <p><b>Pranav Damedhar</b> & <b>Koustubh Thakare</b></p>
+            <p><i>Software Developers</i></p>
           </div>
           <div className="footer-copyright">
             © {new Date().getFullYear()} MALL MUNCH. All rights reserved.
